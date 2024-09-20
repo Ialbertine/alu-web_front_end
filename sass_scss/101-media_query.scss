@@ -1,0 +1,7 @@
+/* Media query syntax and responsiveness */
+h1 {
+  font-size: 20px;
+  @media screen and (max-width: 320px) {
+    font-size: 14px;
+  }
+}

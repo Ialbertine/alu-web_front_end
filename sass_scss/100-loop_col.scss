@@ -1,0 +1,6 @@
+/* Columns and operatos for For loop */
+@for $i from 1 to 5 {
+  .col-#{$i} {
+    width: (100% / $i);
+  }
+}
