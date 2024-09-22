@@ -499,20 +499,6 @@ ul.row {
       ============================= */
 
 .section-hero {
-  position: relative;
-  margin-top: -8.5rem;
-}
-
-.section-hero .section-body {
-  padding: 10rem 4rem;
-}
-
-.section-hero .section-category {
-  color: var(--color-white);
-  text-transform: uppercase;
-}
-
-.hero-homepage {
   background-position: 75% 0;
   background-repeat: no-repeat;
   background-size: 90rem auto;
@@ -524,11 +510,7 @@ ul.row {
 }
 
 .section-hero .section-inner {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  min-height: 50vh;
+  padding: 10rem 40rem 2rem 0;
 }
 
 /*** 4. CARD ***/
@@ -543,12 +525,6 @@ ul.row {
 
 .section-services .row {
   flex-wrap: wrap;
-}
-
-/* Section ABOUT US ============================= */
-
-.section-about-us [class^="col-"] {
-  align-self: center;
 }
 
 /* Card (all styles)
@@ -675,54 +651,4 @@ ul.row {
   color: #efeded;
   font-size: 10rem;
   z-index: -1;
-}
-
-/*** ARTICLE PAGE ***/
-/* Section HERO (article)
-    ============================= */
-
-.hero-article {
-  background-size: 150rem 100rem;
-  background-position: 50% 0;
-}
-
-.hero-article::before {
-  content: "";
-  background: rgba(0, 0, 0, 0.8);
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  z-index: 0;
-}
-
-.hero-article .section-inner {
-  text-align: center;
-  align-items: center;
-  min-height: 40vh;
-}
-
-.hero-article .section-body {
-  position: relative;
-  padding: 7rem 0 0;
-  z-index: 2;
-}
-
-.main-article {
-  padding: 5rem 0;
-}
-
-/* Post
-    ============================= */
-.post {
-  display: flex;
-}
-.post-content {
-  width: 100%;
-}
-
-.post-aside {
-  order: -1;
-  min-width: 20%;
 }
