@@ -1,0 +1,114 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "The Great Canon",
+      "author": "Larry",
+      "id": 2
+    },
+    {
+      "title": "Amazing Waterfall",
+      "author": "Erica",
+      "id": 3
+    },
+    {
+      "title": "Sky full of starts",
+      "author": "Emer",
+      "id": 4
+    },
+    {
+      "title": "Enjoying Life",
+      "author": "Amber",
+      "id": 5
+    },
+    {
+      "title": "Heroes Rock",
+      "author": "Ana",
+      "id": 6
+    },
+    {
+      "title": "Playstation",
+      "author": "Matt",
+      "id": 7
+    },
+    {
+      "title": "Xbox",
+      "author": "McMufin",
+      "id": 8
+    },
+    {
+      "title": "Rainy Afternoon",
+      "author": "Roger",
+      "id": 9
+    },
+    {
+      "title": "New York City",
+      "author": "Frank",
+      "id": 10
+    },
+    {
+      "author": "asd",
+      "title": "qwe",
+      "id": 11
+    },
+    {
+      "author": "Wiki",
+      "title": "Walu",
+      "id": 12
+    },
+    {
+      "author": "Ultra",
+      "title": "Magnum",
+      "id": 13
+    },
+    {
+      "author": "dsf",
+      "title": "dsf",
+      "id": 14
+    },
+    {
+      "author": "asd",
+      "title": "asa",
+      "id": 15
+    },
+    {
+      "author": "Cheese",
+      "title": "cheese",
+      "id": 16
+    },
+    {
+      "author": "wef",
+      "title": "w",
+      "id": 17
+    },
+    {
+      "author": "Welcome",
+      "title": "Larry",
+      "id": 18
+    },
+    {
+      "author": "Aikan",
+      "title": "Macak",
+      "id": 19
+    },
+    {
+      "author": "ewf",
+      "title": "wef",
+      "id": 20
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
